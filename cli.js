@@ -6,7 +6,7 @@ const meow = require('meow')
 const chalk = require('chalk')
 const Figma = require('figma-js')
 const parse = require('./index')
-
+const sass = require('./sass-build');
 const config = require('pkg-conf').sync('figma-theme')
 debugger;
 const log = (...args) => {
@@ -87,6 +87,13 @@ figma.file(id)
       process.exit(1)
       return
     }
+    fs.writeFile("original.json", JSON.stringify(res.data), (err) => {
+      if (err) {
+        log.error(err)
+        process.exit(1)
+      }
+      log('file saved', chalk.gray(outFile))
+    })
     const { data } = res
 
     log('parsing data...')
@@ -99,13 +106,13 @@ figma.file(id)
       }
       log('file saved', chalk.gray(outFile))
     })
+    sass((JSON.parse(json)).colors);
 
     if (opts.debug) {
       fs.writeFile(path.join(opts.outDir, 'data.json'), JSON.stringify(data, null, 2), err => {})
     }
   })
   .catch(err => {
-    console.log(err.toString());
     const { response } = err
     log.error(response.status, response.statusText)
     process.exit(1)
