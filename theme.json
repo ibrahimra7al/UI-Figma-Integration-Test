@@ -1,0 +1,376 @@
+{
+  "colors": {
+    "Greys/Deep Gray": "#262626",
+    "Greys/Darker Gray": "#595959",
+    "Greys/Black": "#0b0b0b",
+    "Greys/Dark Gray": "#707070",
+    "Greys/Gray": "#707070",
+    "Greys/Light Gray": "#dbdbdb",
+    "Greys/Very Light Grey": "#f8f8f8",
+    "Greys/White": "#ffffff",
+    "Branding/Primary": "#2c3095",
+    "Branding/Accent": "#f6b612",
+    "Access/Free Access": "#74b600",
+    "Access/Open Access": "#f68212",
+    "Access/No Access": "#d7180c",
+    "States/Success": "#8ad00f",
+    "States/Error": "#ff2727",
+    "States/Link": "#155bc3",
+    "Brands/PDF": "#eb5757",
+    "Brands/Facebook": "#3b5998",
+    "Brands/Twitter": "#1da1f2",
+    "Brands/LinkedIn": "#0077b5",
+    "Brands/Youtube": "#ff0000",
+    "Black": "#000000",
+    "Texts": "#272727",
+    "dark text": "#272727",
+    "Closed Access": "#ec2020",
+    "Photos/Space 9 ": "#ffffff",
+    "Photos/Moon 1": "#ffffff",
+    "Photos/Biology 2": "#ffffff",
+    "Photos/Graph 3": "#ffffff",
+    "Accent color": "#f6b612",
+    "White": "#ffffff",
+    "Icons etc": "#969696",
+    "Dividers": "#e9e9e9",
+    "white": "#ffffff",
+    "Greys/Sec texts": "#707070",
+    "Greys/Texts": "#272727",
+    "grey": "#767676",
+    "hover": "#f6b612",
+    "Light BG": "#f8f8f8",
+    "Text links": "#155bc3",
+    "Sec Texts": "#525252",
+    "Journal color": "#2c3095",
+    "Dividers, etc - #D9D9D9": "#d9d9d9",
+    "Secondary Texts - #757575": "#757575",
+    "Texts - #33333": "#333333",
+    "Footer BG": "#000000",
+    "Menu Items - Dark BG": "#ffffff",
+    "Gray Bg1 - #F0F0F0": "#f0f0f0",
+    "Primary Color": "#efa413",
+    "Main Menu BG": "#000000",
+    "Text Links": "#1554b2",
+    "Journal/Accent": "#f6b612",
+    "Greys/Dividers": "#eeeeee",
+    "Journal/Main": "#2c3095",
+    "Greys/Paragraph texts": "#505050",
+    "Placeholders/img17": "#ffffff",
+    "Placeholders/img20": "#ffffff",
+    "Greys/Light BG": "#f8f8f8",
+    "Placeholders/img16": "#ffffff",
+    "Greys/Icons": "#969696",
+    "very light grey": "#f8f8f8"
+  },
+  "textStyles": {
+    "title 20-24": {
+      "fontFamily": "Lato",
+      "fontWeight": 900,
+      "fontSize": 20,
+      "lineHeight": 1.0240000152587891
+    },
+    "authors 14-24": {
+      "fontFamily": "Lato",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeight": 1.4628570556640625
+    },
+    "overline 10-18": {
+      "fontFamily": "Lato",
+      "fontWeight": 700,
+      "fontSize": 10,
+      "lineHeight": 1.5360000610351563
+    },
+    "small text 16-26": {
+      "fontFamily": "Lato",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeight": 1.3866667175292968
+    },
+    "italics 18-30": {
+      "fontFamily": "Lato",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeight": 1.4222222900390624
+    },
+    "CTA 14-24": {
+      "fontFamily": "Lato",
+      "fontWeight": 700,
+      "fontSize": 14,
+      "lineHeight": 1.4628570556640625
+    },
+    "Subtitle 18-26": {
+      "fontFamily": "Lato",
+      "fontWeight": 700,
+      "fontSize": 18,
+      "lineHeight": 1.2325926208496094
+    },
+    "big text 18-36": {
+      "fontFamily": "Lato",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeight": 1.7066667175292969
+    },
+    "Desktop/main title 36-48": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 36,
+      "lineHeight": 1.1377777862548828
+    },
+    "Desktop/sidebar title 32-38": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 32,
+      "lineHeight": 1.013333282470703
+    },
+    "tablet/main title 34-48": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 34,
+      "lineHeight": 1.204705810546875
+    },
+    "mobile/sidebar title 30-40": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 30,
+      "lineHeight": 1.1377777862548828
+    },
+    "mobile/main title 30-40": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 30,
+      "lineHeight": 1.1377777862548828
+    },
+    "tablet/sidebar title 30-44": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 30,
+      "lineHeight": 1.2515555572509767
+    },
+    "Desktop/article title 22-32": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 22,
+      "lineHeight": 1.241212158203125
+    },
+    "Desktop/sidebar article 18-22": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 18,
+      "lineHeight": 1.042962875366211
+    },
+    "mobile/sidebar article 16-22": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 16,
+      "lineHeight": 1.1733332824707032
+    },
+    "mobile/article title 20-30": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 20,
+      "lineHeight": 1.28
+    },
+    "Desktop/announcement 26-32": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 26,
+      "lineHeight": 1.05025634765625
+    },
+    "mobile/announcement 20-26": {
+      "fontFamily": "PT Serif",
+      "fontWeight": 700,
+      "fontSize": 20,
+      "lineHeight": 1.109333267211914
+    },
+    "mini title 12-24": {
+      "fontFamily": "Lato",
+      "fontWeight": 700,
+      "fontSize": 12,
+      "lineHeight": 1.7066667175292969
+    },
+    "footer notes 12-22": {
+      "fontFamily": "Lato",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeight": 1.5644444274902343
+    },
+    "Desktop/about 18-32": {
+      "fontFamily": "Lato",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeight": 1.5170370483398437
+    },
+    "mobile/about 16-26": {
+      "fontFamily": "Lato",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeight": 1.3866667175292968
+    },
+    "text link 14-24": {
+      "fontFamily": "Lato",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeight": 1.4628570556640625
+    },
+    "small italics 14-22": {
+      "fontFamily": "Lato",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeight": 1.3409524536132813
+    },
+    "overline - 10px - 18px": {
+      "fontFamily": "Lato",
+      "fontWeight": 700,
+      "fontSize": 10,
+      "lineHeight": 1.5360000610351563
+    },
+    "desktop/authors - 14px - 24px": {
+      "fontFamily": "Lato",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeight": 1.4628570556640625
+    },
+    "Roboto/Title/14-20": {
+      "fontFamily": "Roboto",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeight": 1.066666717529297
+    },
+    "CTA - 14px - 24px": {
+      "fontFamily": "Lato",
+      "fontWeight": 700,
+      "fontSize": 14,
+      "lineHeight": 1.4628570556640625
+    },
+    "desktop/article title - 22px - 32px": {
+      "fontFamily": "PoynterOSDisplay",
+      "fontWeight": 400,
+      "fontSize": 22,
+      "lineHeight": 1.241212158203125
+    },
+    "small CTA - 12px - 24px": {
+      "fontFamily": "Lato",
+      "fontWeight": 700,
+      "fontSize": 12,
+      "lineHeight": 1.7066667175292969
+    },
+    "footnotes - 14px - 22px": {
+      "fontFamily": "Lato",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeight": 1.3409524536132813
+    },
+    "Overline 2 - 12px": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeight": 1.1377777862548828
+    },
+    "H2 - Montserrat 28px": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 700,
+      "fontSize": 28,
+      "lineHeight": 1.158095245361328
+    },
+    "Menu Item - 12px": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 600,
+      "fontSize": 12,
+      "lineHeight": 1
+    },
+    "Body1 - 14px": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeight": 1.158095245361328
+    },
+    "Caption 1 - 12px": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeight": 1.1377777862548828
+    },
+    "Label 2 - 18px": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 800,
+      "fontSize": 18,
+      "lineHeight": 1
+    },
+    "Button 1 - 12px": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 700,
+      "fontSize": 12,
+      "lineHeight": 1.1377777862548828
+    },
+    "Selected Menu Item": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 700,
+      "fontSize": 14,
+      "lineHeight": 1.1
+    },
+    "Description Body Text": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeight": 1.3
+    }
+  },
+  "fonts": [
+    "Lato",
+    "PT Serif",
+    "Roboto",
+    "PoynterOSDisplay",
+    "Montserrat"
+  ],
+  "fontSizes": [
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36
+  ],
+  "fontWeights": [
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+  ],
+  "lineHeights": [
+    1.0240000152587891,
+    1.4628570556640625,
+    1.5360000610351563,
+    1.3866667175292968,
+    1.4222222900390624,
+    1.2325926208496094,
+    1.7066667175292969,
+    1.1377777862548828,
+    1.013333282470703,
+    1.204705810546875,
+    1.2515555572509767,
+    1.241212158203125,
+    1.042962875366211,
+    1.1733332824707032,
+    1.28,
+    1.05025634765625,
+    1.109333267211914,
+    1.5644444274902343,
+    1.5170370483398437,
+    1.3409524536132813,
+    1.066666717529297,
+    1.158095245361328,
+    1,
+    1.1,
+    1.3
+  ]
+}
